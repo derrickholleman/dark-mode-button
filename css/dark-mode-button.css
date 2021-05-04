@@ -50,7 +50,7 @@ body.dark-mode {
     left: -1px;
     width: 25.125px;
     height: 25.125px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(238, 224, 224);
     border-radius: 50%;
     box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
     transition: .3s ease-out;
