@@ -17,4 +17,6 @@
 
   .hero-text {
     border: none;
+    text-align: center;
+    margin: 0 1rem;
   }
