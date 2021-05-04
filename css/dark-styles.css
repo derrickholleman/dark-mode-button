@@ -2,7 +2,6 @@
 body.dark-mode {
     background-color: rgb(20, 21, 22);
     color: rgb(206, 212, 226);
-    transition: .2s ease-in-out;
   }
 
 body.dark-mode .hero-text {

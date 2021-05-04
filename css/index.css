@@ -1,6 +1,9 @@
 /* just use classname for things transitioning out of light mode styles */
-  body {
-    transition: .2s ease-in-out;
+
+  .hero-text {
+    border: none;
+    text-align: center;
+    margin: 0 1rem;
   }
 
   .header-container {
@@ -13,10 +16,4 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
-
-  .hero-text {
-    border: none;
-    text-align: center;
-    margin: 0 1rem;
   }
