@@ -39,7 +39,7 @@ body.dark-mode {
     height: 20.5px;
     width: 55.75px;
     border-radius: 20px;
-    background-color: rgb(232, 234, 238);
+    background-color: rgb(255, 255, 255);
     box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
     transition: .5s;
   }
