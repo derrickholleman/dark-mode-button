@@ -1,9 +1,12 @@
-/* just use classname for things transitioning out of light mode styles */
-
+  
   .hero-text {
     border: none;
     text-align: center;
     margin: 0 1rem;
+  }
+
+  body {
+    transition: .1s; /* transition back into light mode */
   }
 
   .header-container {
