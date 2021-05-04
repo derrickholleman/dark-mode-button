@@ -17,7 +17,7 @@ body.dark-mode {
   }
   
 /* dark mode button styling */
-.dark-mode-button {
+  .dark-mode-button {
     position: relative;
     position: absolute;
     top: 8.25px;
@@ -31,7 +31,7 @@ body.dark-mode {
     border: 1px solid rgba(255,255,255,0);
     z-index: 100;
   }
-  
+  /* button track */  
   .dark-mode-button span:nth-child(1) {
     position: absolute;
     top: 0;
@@ -43,7 +43,7 @@ body.dark-mode {
     box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
     transition: .5s;
   }
-  
+  /* slider */
   .dark-mode-button span:nth-child(2) {
     position: absolute;
     top: -2px;
