@@ -15,23 +15,19 @@ body.dark-mode {
     color: rgb(206, 212, 226);
     transition: .2s ease-in-out;
   }
-/* classname for things transitioning out of light mode styles */
-body {
-  transition: .2s ease-in-out;
-}
-
+  
 /* dark mode button styling */
 .dark-mode-button {
     position: relative;
     position: absolute;
     top: 8.25px;
-    right: 8.25px;
+    right: 17.25px;
     background: 0;
     border: 0;
     box-sizing: border-box;
     cursor: pointer;
-    height: 25.5px;
-    width: 63.75px;
+    height: 18px;
+    width: 56px;
     border: 1px solid rgba(255,255,255,0);
     z-index: 100;
   }
@@ -81,8 +77,8 @@ body {
     content: 'DARK';
     position: absolute;
     color: rgb(20, 21, 22);
-    right: 22%;
-    top: 115%;
+    right: 9%;
+    top: 175%;
     font-weight: bold;
     text-shadow: 0px -3px 9px rgba(255, 255, 255, .5), 0px 1px 9px rgba(255, 255, 255, 0.5);
     transition: .3s;
@@ -99,8 +95,8 @@ body {
 /* dark mode button styling for MOBILE */
 @media screen and (max-width: 768px) {
   .dark-mode-button {
-    top: 7px;
-    right: 7px;
+    top: 8.5px;
+    right: 10px;
     height: 12.75px;
     width: 31.875px;
   }
