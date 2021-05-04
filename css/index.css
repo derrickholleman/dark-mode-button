@@ -1,0 +1,20 @@
+/* just use classname for things transitioning out of light mode styles */
+  body {
+    transition: .2s ease-in-out;
+  }
+
+  .header-container {
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-text {
+    border: none;
+  }

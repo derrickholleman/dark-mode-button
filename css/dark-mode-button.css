@@ -1,0 +1,143 @@
+/* Dark Mode Button Styles */ 
+
+/* BUTTON TO PASTE AT BOTTOM OF .header-container 
+    <button class="dark-mode-button" 
+        aria-label="Toggle Light Mode" 
+        onclick="toggleDarkLight()">
+	    <span></span>
+	    <span></span>
+	</button> 
+-------- */ 
+
+ /* classname.dark-mode for things transitioning out of dark mode styles */
+body.dark-mode {
+    background-color: rgb(20, 21, 22);
+    color: rgb(206, 212, 226);
+    transition: .2s ease-in-out;
+  }
+/* classname for things transitioning out of light mode styles */
+body {
+  transition: .2s ease-in-out;
+}
+
+/* dark mode button styling */
+.dark-mode-button {
+    position: relative;
+    position: absolute;
+    top: 8.25px;
+    right: 8.25px;
+    background: 0;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 25.5px;
+    width: 63.75px;
+    border: 1px solid rgba(255,255,255,0);
+    z-index: 100;
+  }
+  
+  .dark-mode-button span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25.5px;
+    width: 63.75px;
+    border-radius: 20px;
+    background-color: rgb(214, 215, 219);
+    box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+    transition: .5s;
+  }
+  
+  .dark-mode-button span:nth-child(2) {
+    position: absolute;
+    top: 3.1875px;
+    left: 3.1875px;
+    width: 19.125px;
+    height: 19.125px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+    transition: .3s ease-out;
+  }
+  
+  body.dark-mode .dark-mode-button span:nth-child(1){
+    background-color: rgb(206, 212, 226);
+    color: rgb(20, 21, 22);
+  }
+  
+  body.dark-mode .dark-mode-button span:nth-child(2) {
+    left: 40.8px;
+    background-color: rgb(20, 21, 22);
+    transition: .45s;
+  }
+  body.dark-mode .dark-mode-button span:nth-child(2) {
+    left: 40.8px;
+    background-color: rgb(20, 21, 22);
+    transition: .45s;
+  }
+
+/* dark mode toggle text swap */
+  .dark-mode-button::after {
+    content: 'DARK';
+    position: absolute;
+    color: rgb(20, 21, 22);
+    right: 22%;
+    top: 115%;
+    font-weight: bold;
+    text-shadow: 0px -3px 9px rgba(255, 255, 255, .5), 0px 1px 9px rgba(255, 255, 255, 0.5);
+    transition: .3s;
+  }
+  body.dark-mode .dark-mode-button::after {
+    content: 'LIGHT';
+    color: rgb(224, 221, 221);
+    transition: .2s;
+  }
+/* dark mode button styling end */
+
+
+
+/* dark mode button styling for MOBILE */
+@media screen and (max-width: 768px) {
+  .dark-mode-button {
+    top: 7px;
+    right: 7px;
+    height: 12.75px;
+    width: 31.875px;
+  }
+  
+  .dark-mode-button span:nth-child(1) {
+    top: 0;
+    left: 0;
+    height: 12.75px;
+    width: 31.875px;
+    box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+    transition: .5s;
+  }
+  
+  .dark-mode-button span:nth-child(2) {
+    position: absolute;
+    top: 1.59375px;
+    left: 1.59375px;
+    width: 9.5625px;
+    height: 9.5625px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+    transition: .3s ease-out;
+  }
+
+  body.dark-mode .dark-mode-button span:nth-child(2) {
+    left: 20.4px;
+  }
+  body.dark-mode .dark-mode-button span:nth-child(2) {
+    left: 20.4px;
+  }
+
+/* dark mode toggle text swap */
+  .dark-mode-button::after {
+    right: -6%;
+    top: 125%;
+    font-size: .68rem;
+    text-shadow: -2px -1px 6px rgba(255, 255, 255, .5), 1px 1px 6px rgba(255, 255, 255, 0.5);
+  }
+}

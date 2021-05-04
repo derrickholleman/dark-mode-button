@@ -1,0 +1,29 @@
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+}
+
+/* mobile/tablet/laptop cutoff */ 
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1536px) {
+    
+}
