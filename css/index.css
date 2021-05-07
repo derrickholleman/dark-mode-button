@@ -6,7 +6,7 @@
   }
 
   body {
-    transition: .1s; /* transition back into light mode */
+    transition: .1s ease-in; /* transition back into light mode */
   }
 
   .header-container {
