@@ -2,11 +2,11 @@
 body.dark-mode {
     background-color: rgb(20, 21, 22);
     color: rgb(206, 212, 226);
-    transition: .2s ease-in; /* transition into dark mode */
+    transition: .2s; /* transition into dark mode */
   }
 
 body.dark-mode .hero-text {
   padding: 1rem 2rem;
   border: 1px solid white;
-  transition: .2s ease-in; /* transition into dark mode */
+  transition: .2s; /* transition into dark mode */
 }
